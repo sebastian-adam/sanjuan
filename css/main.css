@@ -1,7 +1,18 @@
 .links {
   text-align: center;
   font-size: 30px;
-  color: #ff0066
+  color: #ff0066;
+  margin: auto;
+  position:center;
+
+}
+
+.container {
+  position: center;
+  min-width: 99%;
+  background: blue;
+  z-index: 15;
+  margin: auto;
 }
 
 img {
@@ -73,25 +84,4 @@ position: absolute;
   margin: 20px 20px;
   text-align: center;
   font-size: 300px;
-}
-
-
-
-/*
-img {
-  width: 20vw;
-}
-
-h1 {
-  text-align: center;
-  color: #e4802e;
-  background-color: #fff;
-  font-size: 30px;
-  font-family: Helvetica; sans-serif;
-}
-
-li {
-  line-height: 15px;
-  font-style: oblique;
-  font-weight: bolder;
 }
