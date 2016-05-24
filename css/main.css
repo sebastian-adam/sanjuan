@@ -7,6 +7,7 @@
 img {
   max-width: 25vw;
   margin: 2vw;
+  position: relative;
 /*
   position: absolute;
   clip: circle(60px at center);
@@ -25,6 +26,16 @@ img {
 
 }
 
+.imgmrs {
+  min-width: 30%;
+  opacity: .5;
+}
+.imgmr {
+  margin-left: 600px;
+  min-width: 30%;
+  opacity: .5;
+
+}
 .accimg {
   background-color: red;
   padding: 2vw;
@@ -50,6 +61,22 @@ h2 {
   position:absolute;
   z-index: 10;
 }
+
+#overlay {
+margin: auto;
+padding: auto;
+text-align: center;
+position: absolute;
+}
+
+#whales {
+  margin: 20px 20px;
+  text-align: center;
+  font-size: 300px;
+}
+
+
+
 /*
 img {
   width: 20vw;
