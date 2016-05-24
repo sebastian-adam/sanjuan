@@ -4,6 +4,35 @@
   color: #ff0066
 }
 
+img {
+  max-width: 25vw;
+  margin: 2vw;
+/*
+  position: absolute;
+  clip: circle(60px at center);
+*/
+}
+
+.acctext {
+  display: inline-flex;
+  margin:auto;
+  text-align: center;
+}
+
+.acctext p {
+  padding: 0 15vw;
+  text-align: center;
+
+}
+
+.accimg {
+  background-color: red;
+  padding: 2vw;
+  position: center;
+  text-align: center;
+  margin: auto;
+
+}
 
 
 
