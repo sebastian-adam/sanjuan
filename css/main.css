@@ -34,9 +34,22 @@ img {
 
 }
 
+h2 {
+  padding-left: 5vw;
+}
 
+.mainimg {
+  min-width: 99%;
+  position:absolute;
+  padding: 0;
+  margin:0;
+  z-index: 8;
+}
 
-
+.maintext {
+  position:absolute;
+  z-index: 10;
+}
 /*
 img {
   width: 20vw;
