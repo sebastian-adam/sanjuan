@@ -1,87 +1,49 @@
-.links {
+h1 {
   text-align: center;
-  font-size: 30px;
-  color: #ff0066;
-  margin: auto;
-  position:center;
-
-}
-
-.container {
-  position: center;
-  min-width: 99%;
-  background: blue;
-  z-index: 15;
-  margin: auto;
-}
-
-img {
-  max-width: 25vw;
-  margin: 2vw;
-  position: relative;
-/*
-  position: absolute;
-  clip: circle(60px at center);
-*/
-}
-
-.acctext {
-  display: inline-flex;
-  margin:auto;
-  text-align: center;
-}
-
-.acctext p {
-  padding: 0 15vw;
-  text-align: center;
-
-}
-
-.imgmrs {
-  min-width: 30%;
-  opacity: .5;
-}
-.imgmr {
-  margin-left: 600px;
-  min-width: 30%;
-  opacity: .5;
-
-}
-.accimg {
-  background-color: red;
-  padding: 2vw;
-  position: center;
-  text-align: center;
-  margin: auto;
-
+  font-size: 40px;
+  color: #f66;
+  font-family: cursive;
 }
 
 h2 {
-  padding-left: 5vw;
-}
-
-.mainimg {
-  min-width: 99%;
-  position:absolute;
-  padding: 0;
-  margin:0;
-  z-index: 8;
-}
-
-.maintext {
-  position:absolute;
-  z-index: 10;
-}
-
-#overlay {
-margin: auto;
-padding: auto;
-text-align: center;
-position: absolute;
-}
-
-#whales {
-  margin: 20px 20px;
   text-align: center;
-  font-size: 300px;
+}
+
+.links {
+  text-align: center;
+}
+
+.container {
+  background-image: url("../img/isles.jpg");
+  min-height: 98vh;
+}
+/*
+.img {
+  position:relative;
+  z-index: 1;
+  margin: auto;
+}
+
+.contacttxt {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  margin: auto;
+}
+*/
+.mainContainer {
+	position: relative;
+}
+.absoluteContainer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	margin-left: auto;
+ 	margin-right: auto;
+	max-width: 50%;
+}
+
+.orca {
+  width: 1000px;
 }
